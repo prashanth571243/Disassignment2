@@ -52,7 +52,7 @@ namespace ISM6225_Assignment_2_Spring_2022
 
             //Question 5:
             Console.WriteLine("Question 5");
-            string s1 = "eccbbbbdec";
+            string s1 = "ababcbacadefegdehijhklij";
             List<int> part = PartitionLabels(s1);
             Console.WriteLine("Partation lengths are:");
             for (int i = 0; i < part.Count; i++)
@@ -105,8 +105,8 @@ namespace ISM6225_Assignment_2_Spring_2022
 
             //Question 10:
             Console.WriteLine("Question 10");
-            string wrd1 = "intention";
-            string wrd2 = "execution";
+            string wrd1 = "horse";
+            string wrd2 = "ros";
             int L = MinDistance(wrd1, wrd2);
             Console.WriteLine("Minimum number of operations required are {0}", L);
             Console.WriteLine();
